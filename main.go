@@ -43,7 +43,6 @@ case 1:
 		return
 }
  duration:=time.Since(start)
-
  show("time taken to run is:",duration)
 main() //lets make our code recursive 
 }

@@ -1,2 +1,0 @@
-{"Name":"wash","Id":"Wednesday43940","Creation_Date":"2024-08-28T10:37:16.0187255+03:00","Task_start_Time":"2009-08-02T13:00:00Z"}
-{"Name":"swimming","Id":"Wednesday689434540","Creation_Date":"2024-08-28T10:56:29.8895525+03:00","Task_start_Time":"2006-07-07T12:00:00Z"}

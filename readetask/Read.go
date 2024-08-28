@@ -24,8 +24,8 @@ func Read(channelread chan string  ) {
 	file,err:=os.Open("mytask.txt")
 
 	if err !=nil{
-		show("you have not register any task so please chose 1 to add task ")
-		return
+		show("the file mytsk.txt is not created yet so   please chose 1 to add task and create file")
+		
 	}
 	
 	defer file.Close()
@@ -36,6 +36,10 @@ var task Task
 err := json.Unmarshal([ ]byte(  scanner.Text()),   &task)
 if err!=nil {
 	log.Fatal(err)
+}
+if task.Name==""{
+	show("you have registerd taksks yet  please hoose 1 to add tasks ")
+
 }
 show("task name :", task.Name)
 show("task  ID:", task.Id)
